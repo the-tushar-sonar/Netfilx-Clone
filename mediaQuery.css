@@ -1,0 +1,118 @@
+@media screen and (max-width: 992px) {
+  /* body {
+    overflow-x: hidden;
+    /* width: 100vw;
+      padding: 0.5% 0; 
+  }
+  */
+  .main {
+    height: 90vh;
+  }
+  .main .box {
+    height: 90vh;
+  }
+  /* .main input,
+    .zero input {
+      width: 85%;
+    } */
+  .secImg > img {
+    width: 22rem;
+    object-fit: cover;
+  }
+
+  nav {
+    max-width: 95vw;
+    padding: 1.125rem;
+  }
+  .hero,
+  .zero {
+    width: 85vw;
+    gap: 0.5rem;
+  }
+  .hero,
+  .zero span{
+    max-width: 80vw;
+  }
+  .hero > :nth-child(1),
+  .first > div :first-child,
+  .faq h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+
+  .hero-button,
+  .zero-button {
+    display: flex;
+    flex-direction: column;
+  }
+  .main input,
+  .zero input {
+    width: 85%;
+  }
+  .third .secImg video {
+    top: 1.5rem;
+    right: 4rem;
+    width: 65%;
+  }
+
+  .btn-red {
+    /* padding: 11px 24px; */
+    /* background-color: #e50914; */
+    color: white;
+    font-size: 1.125rem;
+    border-radius: 4px;
+    border-color: transparent;
+    /* max-height: calc(30% - 16px); */
+    /* width: 100%; */
+    width: inherit;
+    font-weight: 500;
+    /* min-height: 3.5rem; */
+    padding: 0.75rem 1.5rem;
+  }
+  .first {
+    padding: 2rem;
+    gap: 0.5rem;
+    /* width: 80vw; */
+  }
+  .first > div{
+    gap: 1rem;
+  
+  }
+  .first > div > span{
+    padding: 0 0.5rem;
+  }
+  /* .first video {
+      top: 1.5rem;
+    right: 4rem;
+  } */
+  .faqbox {
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 1rem;
+    max-width: 70vw;
+    margin: 1rem auto;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .questions {
+    font-size: 1rem;
+  }
+  .footer-item {
+    font-size: 0.75rem;
+  }
+  .faqbox svg {
+    height: 1.5rem;
+  }
+}
+@media  screen and (max-width: 1300px) {
+  .first > div :nth-child(2),
+  .hero > :nth-child(2),
+  .hero > :nth-child(3),
+  .zero > :nth-child(1),
+  .first {
+    flex-wrap: wrap;
+  }
+}
